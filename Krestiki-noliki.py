@@ -31,8 +31,6 @@ def func_win():
     for each in win_war:
         if (board[each[0] - 1]) == (board[each[1] - 1]) == (board[each[2] - 1]):
             return board[each[0] - 1]
-    #else:
-    #    return False
 
 
 def main():
